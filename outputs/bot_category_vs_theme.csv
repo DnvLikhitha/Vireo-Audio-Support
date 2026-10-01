@@ -1,0 +1,13 @@
+category,app_firmware_account,audio_quality,battery_drain,charging_case_fault,delivery_tracking,one_earbud_dead_or_not_charging,other,pairing_connection_drop,refund_payment_delay,warranty_rma,All
+Account & Login,245,0,0,5,0,0,54,0,25,2,331
+App & Firmware,400,0,37,0,10,0,148,60,68,11,734
+Audio Quality,0,329,0,0,7,249,115,31,18,21,770
+Billing & Payments,0,0,0,18,52,0,435,30,905,22,1462
+Charging & Battery,12,0,384,113,29,582,175,0,30,24,1349
+Connectivity,29,15,0,0,3,0,134,798,23,6,1008
+Delivery & Shipping,0,0,0,31,1740,0,67,0,40,5,1883
+Other,49,64,46,25,863,70,274,110,197,29,1727
+Product Enquiry,0,0,0,12,0,0,457,0,79,4,552
+Returns & Refunds,0,0,0,15,401,92,118,0,479,10,1115
+Warranty & Repair,0,0,0,27,77,201,145,153,49,130,782
+All,735,408,467,246,3182,1194,2122,1182,1913,264,11713

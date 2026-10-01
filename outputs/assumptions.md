@@ -103,4 +103,33 @@ This log documents every key judgement call, the rationale behind it, and the ev
 - **Why:** Across 11,750 tickets, exactly 1,064 breached (9.06%, matching the exploratory ~9.1%), totaling Rs 372,400 (~Rs 3.7 lakh). Monthly breach rates varied narrowly between 6.4% and 11.3% throughout the 18 months, demonstrating complete operational stability and proving that support speed was not the driver of the CSAT drop.
 - **What would change my mind:** If IT logs proved that automatic customer store credits were not actually disbursed on resolution.
 
+---
+
+## 15. Junk IVR Transcript Filtering (37 Tickets)
+- **Decision:** Filter exactly 37 tickets containing corrupted IVR audio artifacts (`[inaudible]`, `[crosstalk]`, `[line dropped]`) or uninformative punctuation noise (`.`, `-`, `??`, `...`, `test`) from text classification only, while retaining them in operational and agent metrics.
+- **Why:** Sameer Qureshi noted in the email thread that roughly 40 voice tickets had failed IVR speech-to-text outputs. Filtering these 37 tickets prevents artificial inflation of the 'other' classification theme while preserving full ticket volume accounting for agent CSAT and handle time.
+- **What would change my mind:** If raw audio recordings became available and could be re-transcribed to reveal meaningful customer intent.
+
+---
+
+## 16. Expansion of Root-Cause Themes
+- **Decision:** Expand the 8 baseline themes suggested in the brief to include two additional specific categories: `audio_quality` (static noise, distortion, crackling, mic failure) and `app_firmware_account` (app crashes, firmware update freezes, OTP and login issues).
+- **Why:** Audio distortion and app/firmware issues represent substantial, distinct customer failure modes (408 and 735 tickets respectively). Merging them into generic 'other' would mask significant software and acoustic defects, especially for over-ear headphones (Strata 2/3) and smartwatches (Nexa 1/2).
+- **What would change my mind:** If product engineering requested a collapsed 8-theme taxonomy combining software and acoustic bugs into general hardware.
+
+---
+
+## 17. Disagreements with Intake Bot Categories
+- **Decision:** Treat the intake bot category tag as an unreliable initial routing guess rather than an engineering root cause.
+- **Why:** Data Trap #10 notes the intake tag is set by an automated bot and rarely corrected. Analysis shows that 83.2% of tickets tagged 'Other' by the bot actually had clear root causes (863 delivery, 197 refunds, 110 pairing, 70 earbud failures). Furthermore, the bot fragmented single-earbud dead units across 5 unrelated categories (Charging, Audio Quality, Warranty, Returns, Other) because it lacked a dedicated single-bud failure tag.
+- **What would change my mind:** If helpdesk configuration rules showed that agents were required to systematically re-tag every resolved ticket with verified root-cause tags.
+
+---
+
+## 18. Unbiased Stratified Validation Sampling Strategy
+- **Decision:** Draw the 150-ticket validation sample using stratified random sampling based strictly on intake bot category and channel, without conditioning on or inspecting model predictions.
+- **Why:** Hand-labeling validation (WP6) requires an unbiased sample representative of the entire ticket population. Sampling on the classifier's predicted classes would bias the test set toward the classifier's own decision boundaries. Blank columns `hand_label` and `user_notes` are provided for manual human evaluation.
+- **What would change my mind:** If human labeling budget permitted a full 1,000-ticket random sample.
+
+
 
