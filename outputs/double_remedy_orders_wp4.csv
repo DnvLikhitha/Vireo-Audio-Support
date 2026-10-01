@@ -1,0 +1,132 @@
+order_id,ticket_ids,ticket_count,has_replacement,has_refund,refund_reasons,refund_amounts,customer_ids,skus,category,total_refund_amount
+VR880295,"['TK-245886', 'TK-246034', 'TK-246392']",3,True,True,['RETURN-QC-OK'],[57.0],C108463,"['VA-AC-CBL', 'VA-AC-CBL', 'VA-AC-CBL']",Legitimate (QC Return / Dup Payment / Price Adj),57.0
+VR880673,"['TK-248397', 'TK-248772']",2,True,True,['LOST-TRANSIT'],[2799.0],C109361,"['VA-EB-PL2', 'VA-EB-PL2']",Genuine Policy Violation (Double Remedy for Fault),2799.0
+VR881066,"['TK-251280', 'TK-251420', 'TK-253876']",3,True,True,['RETURN-QC-OK'],[420.0],C106055,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),420.0
+VR881423,"['TK-247359', 'TK-249090', 'TK-249962']",3,True,True,['DUP-PAYMENT'],[3324.0],C103388,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3324.0
+VR881451,"['TK-247752', 'TK-248124', 'TK-248575']",3,True,True,['DUP-PAYMENT'],[525.0],C105602,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),525.0
+VR881710,"['TK-245469', 'TK-245789', 'TK-245833', 'TK-247185', 'TK-250035']",5,True,True,['DUP-PAYMENT'],[110.0],C106956,"['VA-NB-ARC', 'VA-NB-ARC', 'VA-NB-ARC', 'VA-NB-ARC', 'VA-NB-ARC']",Legitimate (QC Return / Dup Payment / Price Adj),110.0
+VR882278,"['TK-243462', 'TK-243539', 'TK-244022']",3,True,True,['RETURN-QC-OK'],[3499.0],C102632,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3499.0
+VR882487,"['TK-248285', 'TK-249052']",2,True,True,['PRICE-ADJ'],[2799.0],C109291,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),2799.0
+VR882538,"['TK-247111', 'TK-247846']",2,True,True,['LOST-TRANSIT'],[3499.0],C102939,"['VA-EB-PL2', 'VA-EB-PL2']",Genuine Policy Violation (Double Remedy for Fault),3499.0
+VR882733,"['TK-248103', 'TK-248207', 'TK-251044']",3,True,True,['DUP-PAYMENT'],[3149.0],C109150,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3149.0
+VR882810,"['TK-249424', 'TK-250888']",2,True,True,['RETURN-QC-OK'],[2374.0],C101204,"['VA-EB-PL1', 'VA-EB-PL1']",Legitimate (QC Return / Dup Payment / Price Adj),2374.0
+VR882875,"['TK-246308', 'TK-248150']",2,True,True,['DOA-REPL'],[3499.0],C105819,"['VA-EB-PL2', 'VA-EB-PL2']",Genuine Policy Violation (Double Remedy for Fault),3499.0
+VR883288,"['TK-251275', 'TK-251320', 'TK-251480']",3,True,True,['DUP-PAYMENT'],[665.0],C101503,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),665.0
+VR883324,"['TK-246377', 'TK-246536', 'TK-246562', 'TK-246803']",4,True,True,['RETURN-QC-OK'],[3149.0],C106504,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3149.0
+VR883688,"['TK-250205', 'TK-253280']",2,True,True,['WTY-BUYBACK'],[3149.0],C107237,"['VA-EB-PL2', 'VA-EB-PL2']",Genuine Policy Violation (Double Remedy for Fault),3149.0
+VR883927,"['TK-249545', 'TK-249674', 'TK-249815', 'TK-250483']",4,True,True,['RETURN-QC-OK'],[2799.0],C107991,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),2799.0
+VR884305,"['TK-246531', 'TK-253063']",2,True,True,['DUP-PAYMENT'],[6499.0],C101566,"['VA-SW-NX2', 'VA-SW-NX2']",Legitimate (QC Return / Dup Payment / Price Adj),6499.0
+VR884864,"['TK-242230', 'TK-242489']",2,True,True,['DUP-PAYMENT'],[2499.0],C105266,"['VA-EB-PL1', 'VA-EB-PL1']",Legitimate (QC Return / Dup Payment / Price Adj),2499.0
+VR884890,"['TK-246652', 'TK-248087', 'TK-251865']",3,True,True,['CANCEL'],[3499.0],C107036,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Ambiguous / Cancelled Order,3499.0
+VR884900,"['TK-249543', 'TK-250165', 'TK-250632']",3,True,True,['RETURN-QC-OK'],[3499.0],C108185,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3499.0
+VR885085,"['TK-253941', 'TK-254008', 'TK-254063', 'TK-254564']",4,True,True,['DUP-PAYMENT'],[2799.0],C104559,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),2799.0
+VR885150,"['TK-246567', 'TK-246939', 'TK-247105', 'TK-248211']",4,True,True,['RETURN-QC-OK'],[297.0],C103617,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),297.0
+VR885419,"['TK-251085', 'TK-251128']",2,True,True,['RETURN-QC-OK'],[3499.0],C104603,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3499.0
+VR885551,"['TK-243435', 'TK-243493']",2,True,True,['RETURN-QC-OK'],[2249.0],C107156,"['VA-EB-PL1', 'VA-EB-PL1']",Legitimate (QC Return / Dup Payment / Price Adj),2249.0
+VR885807,"['TK-251019', 'TK-252200', 'TK-252202']",3,True,True,"['RETURN-QC-OK', 'WTY-BUYBACK']","[700.0, 3499.0]",C100360,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Genuine Policy Violation (Double Remedy for Fault),4199.0
+VR885854,"['TK-253928', 'TK-254534']",2,True,True,['DUP-PAYMENT'],[6648.0],C103271,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),6648.0
+VR886089,"['TK-247724', 'TK-253955']",2,True,True,['GW-OTHER'],[5999.0],C108331,"['VA-SP-ORB', 'VA-SP-ORB']",Ambiguous / Cancelled Order,5999.0
+VR886105,"['TK-249160', 'TK-251444']",2,True,True,['RETURN-QC-OK'],[1750.0],C108277,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),1750.0
+VR886117,"['TK-247753', 'TK-248665', 'TK-253630']",3,True,True,['DOA-REPL'],[446.0],C106865,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Genuine Policy Violation (Double Remedy for Fault),446.0
+VR886390,"['TK-246081', 'TK-250252']",2,True,True,['RETURN-QC-OK'],[3499.0],C108437,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3499.0
+VR886613,"['TK-244053', 'TK-244252', 'TK-244301', 'TK-244436', 'TK-244457', 'TK-252821']",6,True,True,['RETURN-QC-OK'],[1999.0],C101840,"['VA-SW-FIT', 'VA-SW-FIT', 'VA-SW-FIT', 'VA-SW-FIT', 'VA-SW-FIT', 'VA-SW-FIT']",Legitimate (QC Return / Dup Payment / Price Adj),1999.0
+VR886896,"['TK-253411', 'TK-254466']",2,True,True,['CANCEL'],[6999.0],C107678,"['VA-HP-ST3', 'VA-HP-ST3']",Ambiguous / Cancelled Order,6999.0
+VR887099,"['TK-249365', 'TK-249669', 'TK-250728', 'TK-251350', 'TK-251898', 'TK-252150']",6,True,True,['CANCEL'],[2799.0],C105828,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Ambiguous / Cancelled Order,2799.0
+VR887678,"['TK-247008', 'TK-247944']",2,True,True,['DUP-PAYMENT'],[1487.0],C109092,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),1487.0
+VR888205,"['TK-244303', 'TK-245535', 'TK-246007']",3,True,True,['RETURN-QC-OK'],[3149.0],C106916,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3149.0
+VR888228,"['TK-253950', 'TK-253968']",2,True,True,['RETURN-QC-OK'],[1104.0],C104542,"['VA-AC-CASE', 'VA-AC-CASE']",Legitimate (QC Return / Dup Payment / Price Adj),1104.0
+VR888398,"['TK-240574', 'TK-240709']",2,True,True,['CANCEL'],[6499.0],C109426,"['VA-SW-NX2', 'VA-SW-NX2']",Ambiguous / Cancelled Order,6499.0
+VR888525,"['TK-249185', 'TK-249577', 'TK-250049', 'TK-250225', 'TK-250970']",5,True,True,"['DUP-PAYMENT', 'RETURN-QC-OK']","[472.0, 3149.0]",C105640,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3621.0
+VR888531,"['TK-246341', 'TK-246482']",2,True,True,['RETURN-QC-OK'],[6998.0],C103432,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),6998.0
+VR889676,"['TK-243148', 'TK-243250']",2,True,True,['LOST-TRANSIT'],[650.0],C106402,"['VA-SW-NX2', 'VA-SW-NX2']",Genuine Policy Violation (Double Remedy for Fault),650.0
+VR890225,"['TK-247699', 'TK-248041']",2,True,True,['CANCEL'],[359.0],C102630,"['VA-AC-CBL', 'VA-AC-CBL']",Ambiguous / Cancelled Order,359.0
+VR890324,"['TK-240646', 'TK-241196']",2,True,True,['CANCEL'],[1899.0],C104751,"['VA-SW-FIT', 'VA-SW-FIT']",Ambiguous / Cancelled Order,1899.0
+VR890331,"['TK-251535', 'TK-252176']",2,True,True,['RETURN-QC-OK'],[472.0],C102668,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),472.0
+VR890830,"['TK-247978', 'TK-248232', 'TK-252077']",3,True,True,['RETURN-QC-OK'],[446.0],C105438,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),446.0
+VR891012,"['TK-248638', 'TK-248945', 'TK-249260', 'TK-251042', 'TK-252318']",5,True,True,"['CANCEL', 'GW-OTHER']","[280.0, 2799.0]",C101608,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Ambiguous / Cancelled Order,3079.0
+VR891440,"['TK-245169', 'TK-245352', 'TK-250268']",3,True,True,['DOA-REPL'],[1709.0],C101549,"['VA-EB-AIR', 'VA-EB-AIR', 'VA-EB-AIR']",Genuine Policy Violation (Double Remedy for Fault),1709.0
+VR891717,"['TK-250543', 'TK-251132', 'TK-251382']",3,True,True,['RETURN-QC-OK'],[350.0],C100546,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),350.0
+VR891846,"['TK-247199', 'TK-248072', 'TK-248344']",3,True,True,['CANCEL'],[332.0],C105647,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Ambiguous / Cancelled Order,332.0
+VR892287,"['TK-249621', 'TK-250580']",2,True,True,['DUP-PAYMENT'],[3324.0],C106792,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3324.0
+VR892324,"['TK-244689', 'TK-245007', 'TK-245460']",3,True,True,['RETURN-QC-OK'],[2499.0],C102475,"['VA-SP-MINI', 'VA-SP-MINI', 'VA-SP-MINI']",Legitimate (QC Return / Dup Payment / Price Adj),2499.0
+VR892560,"['TK-253847', 'TK-253979']",2,True,True,['CANCEL'],[1424.0],C104218,"['VA-AC-CH65', 'VA-AC-CH65']",Ambiguous / Cancelled Order,1424.0
+VR892650,"['TK-246667', 'TK-248053']",2,True,True,['CANCEL'],[280.0],C106942,"['VA-EB-PL2', 'VA-EB-PL2']",Ambiguous / Cancelled Order,280.0
+VR892836,"['TK-250193', 'TK-250715']",2,True,True,['DUP-PAYMENT'],[3324.0],C109499,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3324.0
+VR893398,['TK-250859'],1,True,True,['RETURN-QC-OK'],[6499.0],C106048,['VA-SW-NX2'],Legitimate (QC Return / Dup Payment / Price Adj),6499.0
+VR893680,"['TK-251215', 'TK-251569', 'TK-251607', 'TK-253133']",4,True,True,['RETURN-QC-OK'],[420.0],C103032,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),420.0
+VR893908,"['TK-248771', 'TK-248865', 'TK-248924']",3,True,True,['DOA-REPL'],[665.0],C104681,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Genuine Policy Violation (Double Remedy for Fault),665.0
+VR894406,"['TK-250313', 'TK-252582']",2,True,True,['RETURN-QC-OK'],[472.0],C102846,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),472.0
+VR894530,"['TK-243153', 'TK-251763']",2,True,True,['DUP-PAYMENT'],[3324.0],C109013,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3324.0
+VR894590,"['TK-246133', 'TK-246793']",2,True,True,['RETURN-QC-OK'],[3499.0],C101587,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3499.0
+VR895044,"['TK-247446', 'TK-247738']",2,True,True,['DOA-REPL'],[400.0],C104618,"['VA-SP-MINI', 'VA-SP-MINI']",Genuine Policy Violation (Double Remedy for Fault),400.0
+VR895074,"['TK-247208', 'TK-248852']",2,True,True,['RETURN-QC-OK'],[3324.0],C108061,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3324.0
+VR895201,"['TK-243801', 'TK-246140']",2,True,True,['DUP-PAYMENT'],[3499.0],C103999,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3499.0
+VR895266,"['TK-242491', 'TK-242901']",2,True,True,['DUP-PAYMENT'],[1899.0],C107161,"['VA-SW-FIT', 'VA-SW-FIT']",Legitimate (QC Return / Dup Payment / Price Adj),1899.0
+VR895276,"['TK-251716', 'TK-251806', 'TK-253444']",3,True,True,['RETURN-QC-OK'],[2974.0],C109486,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),2974.0
+VR895290,"['TK-252007', 'TK-253199']",2,True,True,['DOA-REPL'],[3499.0],C104153,"['VA-EB-PL2', 'VA-EB-PL2']",Genuine Policy Violation (Double Remedy for Fault),3499.0
+VR895375,"['TK-250968', 'TK-251193', 'TK-251573', 'TK-253206']",4,True,True,['DOA-REPL'],[306.0],C103267,"['VA-EB-AIR', 'VA-EB-AIR', 'VA-EB-AIR', 'VA-EB-AIR']",Genuine Policy Violation (Double Remedy for Fault),306.0
+VR895474,"['TK-248318', 'TK-251557']",2,True,True,['DUP-PAYMENT'],[3149.0],C105825,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3149.0
+VR895681,['TK-245019'],1,True,True,['RETURN-QC-OK'],[975.0],C108296,['VA-SW-NX2'],Legitimate (QC Return / Dup Payment / Price Adj),975.0
+VR895991,"['TK-248249', 'TK-248734', 'TK-251281', 'TK-253277']",4,True,True,['RETURN-QC-OK'],[3324.0],C101566,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3324.0
+VR896165,"['TK-241961', 'TK-242338', 'TK-242356', 'TK-242708']",4,True,True,['RETURN-QC-OK'],[2499.0],C101223,"['VA-SP-MINI', 'VA-SP-MINI', 'VA-SP-MINI', 'VA-SP-MINI']",Legitimate (QC Return / Dup Payment / Price Adj),2499.0
+VR896350,"['TK-244798', 'TK-247471']",2,True,True,['DUP-PAYMENT'],[1799.0],C100652,"['VA-SW-FIT', 'VA-SW-FIT']",Legitimate (QC Return / Dup Payment / Price Adj),1799.0
+VR896418,"['TK-242025', 'TK-242408', 'TK-244220']",3,True,True,['PRICE-ADJ'],[1234.0],C102861,"['VA-NB-ARC', 'VA-NB-ARC', 'VA-NB-ARC']",Legitimate (QC Return / Dup Payment / Price Adj),1234.0
+VR896773,"['TK-248245', 'TK-249164']",2,True,True,['RETURN-QC-OK'],[1999.0],C105709,"['VA-EB-PL1', 'VA-EB-PL1']",Legitimate (QC Return / Dup Payment / Price Adj),1999.0
+VR896901,"['TK-246252', 'TK-246747']",2,True,True,['RETURN-QC-OK'],[3324.0],C108372,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3324.0
+VR896904,"['TK-251061', 'TK-252354', 'TK-253038']",3,True,True,['RETURN-QC-OK'],[560.0],C104656,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),560.0
+VR897042,"['TK-247764', 'TK-248628']",2,True,True,['DUP-PAYMENT'],[3499.0],C109397,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3499.0
+VR897597,"['TK-254179', 'TK-254412']",2,True,True,['CANCEL'],[6998.0],C100563,"['VA-EB-PL2', 'VA-EB-PL2']",Ambiguous / Cancelled Order,6998.0
+VR897636,"['TK-245713', 'TK-246756']",2,True,True,['RETURN-QC-OK'],[2499.0],C108707,"['VA-SP-MINI', 'VA-SP-MINI']",Legitimate (QC Return / Dup Payment / Price Adj),2499.0
+VR897969,"['TK-240310', 'TK-252244', 'TK-253684']",3,True,True,['DOA-REPL'],[2499.0],C103114,"['VA-EB-PL1', 'VA-EB-PL1', 'VA-EB-PL1']",Genuine Policy Violation (Double Remedy for Fault),2499.0
+VR898068,"['TK-249280', 'TK-249921']",2,True,True,['RETURN-QC-OK'],[1750.0],C103890,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),1750.0
+VR898497,"['TK-249126', 'TK-249242']",2,True,True,['RETURN-QC-OK'],[3499.0],C101530,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3499.0
+VR898807,"['TK-252919', 'TK-253106', 'TK-253121']",3,True,True,['CANCEL'],[3499.0],C100233,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Ambiguous / Cancelled Order,3499.0
+VR899279,"['TK-251109', 'TK-251783']",2,True,True,['RETURN-QC-OK'],[630.0],C104698,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),630.0
+VR899421,"['TK-241366', 'TK-241494', 'TK-241515', 'TK-241910']",4,True,True,['CANCEL'],[5199.0],C101442,"['VA-SW-NX2', 'VA-SW-NX2', 'VA-SW-NX2', 'VA-SW-NX2']",Ambiguous / Cancelled Order,5199.0
+VR899565,"['TK-244129', 'TK-244374', 'TK-244478']",3,True,True,['RETURN-QC-OK'],[2799.0],C101833,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),2799.0
+VR899651,"['TK-250608', 'TK-251858', 'TK-252253']",3,True,True,['RETURN-QC-OK'],[1400.0],C104606,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),1400.0
+VR900106,"['TK-253962', 'TK-254057', 'TK-254222']",3,True,True,"['RETURN-QC-OK', 'WTY-BUYBACK']","[1400.0, 6999.0]",C108073,"['VA-HP-ST3', 'VA-HP-ST3', 'VA-HP-ST3']",Genuine Policy Violation (Double Remedy for Fault),8399.0
+VR900281,"['TK-244392', 'TK-253341']",2,True,True,['DUP-PAYMENT'],[216.0],C109144,"['VA-EB-AIR', 'VA-EB-AIR']",Legitimate (QC Return / Dup Payment / Price Adj),216.0
+VR900302,"['TK-241303', 'TK-245105', 'TK-245925']",3,True,True,"['RETURN-QC-OK', 'DUP-PAYMENT']","[1499.0, 1499.0]",C105606,"['VA-AC-CH65', 'VA-AC-CH65', 'VA-AC-CH65']",Legitimate (QC Return / Dup Payment / Price Adj),2998.0
+VR900521,"['TK-249592', 'TK-252117']",2,True,True,['CANCEL'],[3499.0],C107508,"['VA-EB-PL2', 'VA-EB-PL2']",Ambiguous / Cancelled Order,3499.0
+VR901821,"['TK-247997', 'TK-253403', 'TK-254329']",3,True,True,['DOA-REPL'],[4999.0],C104842,"['VA-HP-ST2', 'VA-HP-ST2', 'VA-HP-ST2']",Genuine Policy Violation (Double Remedy for Fault),4999.0
+VR902345,"['TK-244782', 'TK-244906']",2,True,True,['CANCEL'],[1169.0],C100882,"['VA-NB-ARC', 'VA-NB-ARC']",Ambiguous / Cancelled Order,1169.0
+VR902617,"['TK-244364', 'TK-244532']",2,True,True,['DUP-PAYMENT'],[1799.0],C101636,"['VA-EB-AIR', 'VA-EB-AIR']",Legitimate (QC Return / Dup Payment / Price Adj),1799.0
+VR902725,"['TK-248377', 'TK-250403']",2,True,True,['DUP-PAYMENT'],[3499.0],C106728,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3499.0
+VR902807,"['TK-247581', 'TK-253140']",2,True,True,['DUP-PAYMENT'],[3499.0],C104892,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3499.0
+VR902836,"['TK-248131', 'TK-248833', 'TK-248938']",3,True,True,"['LOST-TRANSIT', 'RETURN-QC-OK']","[700.0, 1750.0]",C105159,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Genuine Policy Violation (Double Remedy for Fault),2450.0
+VR903292,"['TK-246976', 'TK-247035']",2,True,True,['DUP-PAYMENT'],[2799.0],C105489,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),2799.0
+VR903355,"['TK-246493', 'TK-246561', 'TK-249489']",3,True,True,['RETURN-QC-OK'],[340.0],C101623,"['VA-SW-FIT', 'VA-SW-FIT', 'VA-SW-FIT']",Legitimate (QC Return / Dup Payment / Price Adj),340.0
+VR903810,"['TK-249055', 'TK-250748', 'TK-251173']",3,True,True,['CANCEL'],[350.0],C108074,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Ambiguous / Cancelled Order,350.0
+VR904065,"['TK-245295', 'TK-245456', 'TK-245499']",3,True,True,['RETURN-QC-OK'],[3149.0],C104894,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3149.0
+VR904124,"['TK-244004', 'TK-244143', 'TK-244523']",3,True,True,['RETURN-QC-OK'],[315.0],C105274,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),315.0
+VR904274,"['TK-245045', 'TK-245370']",2,True,True,['DUP-PAYMENT'],[2499.0],C100548,"['VA-SP-MINI', 'VA-SP-MINI']",Legitimate (QC Return / Dup Payment / Price Adj),2499.0
+VR904630,"['TK-245765', 'TK-246073', 'TK-246350']",3,True,True,['CANCEL'],[2974.0],C102762,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Ambiguous / Cancelled Order,2974.0
+VR904673,"['TK-244244', 'TK-252315']",2,True,True,['RETURN-QC-OK'],[3149.0],C105805,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3149.0
+VR904752,"['TK-249058', 'TK-249506', 'TK-249642', 'TK-250552']",4,True,True,['RETURN-QC-OK'],[3324.0],C102217,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3324.0
+VR904872,"['TK-248359', 'TK-248371', 'TK-249975']",3,True,True,['DUP-PAYMENT'],[3499.0],C103288,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3499.0
+VR904980,"['TK-247135', 'TK-248045', 'TK-251189']",3,True,True,['RETURN-QC-OK'],[3499.0],C102234,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3499.0
+VR905070,"['TK-244326', 'TK-248476']",2,True,True,['LOST-TRANSIT'],[4249.0],C106442,"['VA-SW-NX1', 'VA-SW-NX1']",Genuine Policy Violation (Double Remedy for Fault),4249.0
+VR905171,"['TK-246752', 'TK-247744']",2,True,True,['DOA-REPL'],[1574.0],C100880,"['VA-EB-PL2', 'VA-EB-PL2']",Genuine Policy Violation (Double Remedy for Fault),1574.0
+VR905316,"['TK-242394', 'TK-242676']",2,True,True,['DUP-PAYMENT'],[1169.0],C106245,"['VA-NB-ARC', 'VA-NB-ARC']",Legitimate (QC Return / Dup Payment / Price Adj),1169.0
+VR905912,"['TK-249609', 'TK-249892']",2,True,True,['DUP-PAYMENT'],[2499.0],C100305,"['VA-EB-PL1', 'VA-EB-PL1']",Legitimate (QC Return / Dup Payment / Price Adj),2499.0
+VR906144,"['TK-247366', 'TK-250662']",2,True,True,['LOST-TRANSIT'],[315.0],C100614,"['VA-EB-PL2', 'VA-EB-PL2']",Genuine Policy Violation (Double Remedy for Fault),315.0
+VR906272,"['TK-250814', 'TK-251110']",2,True,True,['DOA-REPL'],[1349.0],C104097,"['VA-AC-CH65', 'VA-AC-CH65']",Genuine Policy Violation (Double Remedy for Fault),1349.0
+VR906730,"['TK-251836', 'TK-251977', 'TK-252441']",3,True,True,['PRICE-ADJ'],[3499.0],C103113,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3499.0
+VR906888,"['TK-246148', 'TK-252256']",2,True,True,['RETURN-QC-OK'],[2974.0],C100833,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),2974.0
+VR907020,"['TK-242536', 'TK-242540']",2,True,True,['CANCEL'],[1709.0],C108274,"['VA-EB-AIR', 'VA-EB-AIR']",Ambiguous / Cancelled Order,1709.0
+VR907480,"['TK-243334', 'TK-243454']",2,True,True,['DUP-PAYMENT'],[270.0],C108094,"['VA-EB-AIR', 'VA-EB-AIR']",Legitimate (QC Return / Dup Payment / Price Adj),270.0
+VR907639,"['TK-250214', 'TK-252020']",2,True,True,['CANCEL'],[10198.0],C108576,"['VA-SP-ORB', 'VA-SP-ORB']",Ambiguous / Cancelled Order,10198.0
+VR907658,"['TK-249339', 'TK-250045']",2,True,True,['PRICE-ADJ'],[3149.0],C101893,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3149.0
+VR907742,"['TK-244395', 'TK-244665']",2,True,True,['RETURN-QC-OK'],[3499.0],C106841,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3499.0
+VR908184,"['TK-246424', 'TK-246629', 'TK-247468', 'TK-248744']",4,True,True,['RETURN-QC-OK'],[1799.0],C107452,"['VA-EB-AIR', 'VA-EB-AIR', 'VA-EB-AIR', 'VA-EB-AIR']",Legitimate (QC Return / Dup Payment / Price Adj),1799.0
+VR908292,"['TK-249563', 'TK-249958', 'TK-251937']",3,True,True,['DUP-PAYMENT'],[3499.0],C100975,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3499.0
+VR908567,"['TK-247143', 'TK-247664', 'TK-249247']",3,True,True,['LOST-TRANSIT'],[3499.0],C105745,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Genuine Policy Violation (Double Remedy for Fault),3499.0
+VR908813,"['TK-249735', 'TK-249766']",2,True,True,['RETURN-QC-OK'],[3499.0],C109070,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3499.0
+VR909216,"['TK-248721', 'TK-250229']",2,True,True,['CANCEL'],[3149.0],C107807,"['VA-EB-PL2', 'VA-EB-PL2']",Ambiguous / Cancelled Order,3149.0
+VR909760,"['TK-249688', 'TK-249937', 'TK-251973']",3,True,True,"['RETURN-QC-OK', 'LOST-TRANSIT']","[1400.0, 6998.0]",C106889,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Genuine Policy Violation (Double Remedy for Fault),8398.0
+VR909802,"['TK-249733', 'TK-250628', 'TK-250708']",3,True,True,['DUP-PAYMENT'],[3499.0],C100575,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3499.0
+VR910051,"['TK-249209', 'TK-249277', 'TK-252906']",3,True,True,['DUP-PAYMENT'],[3324.0],C108050,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3324.0
+VR910070,"['TK-247674', 'TK-247720', 'TK-248011']",3,True,True,['DUP-PAYMENT'],[3499.0],C103112,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3499.0
+VR910147,"['TK-248009', 'TK-248901']",2,True,True,['DUP-PAYMENT'],[1330.0],C103208,"['VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),1330.0
+VR910299,"['TK-249622', 'TK-250912', 'TK-251647']",3,True,True,['RETURN-QC-OK'],[3149.0],C107154,"['VA-EB-PL2', 'VA-EB-PL2', 'VA-EB-PL2']",Legitimate (QC Return / Dup Payment / Price Adj),3149.0

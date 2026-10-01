@@ -75,3 +75,32 @@ This log documents every key judgement call, the rationale behind it, and the ev
 - **Why:** Ticket types are segregated by team: only Escalations & Warranty handles Tier 2 RMA tickets, and rota agents handle the severe hardware complaints. Because team assignment is collinear with queue difficulty, unmeasured ticket friction remains in the agent residual. Furthermore, agent confidence intervals overlap substantially (mean standard error ±0.10, margin of error ±0.20), making individual rank differences statistically indistinguishable.
 - **What would change my mind:** If tickets were randomized across all agents regardless of tier or team, creating an unconfounded natural experiment.
 
+---
+
+## 11. Replacement Costing Standard (Rs 1,820 vs. Arjun's Rs 2,500)
+- **Decision:** Compute replacement costs strictly using the formula defined in Support Operating Policy §5: Product Unit Cost + Rs 340 reverse pickup and forward shipping. For Pulse 2 (unit cost Rs 1,480), this equals Rs 1,820 per replacement. Do not use Arjun Mehta's anecdotal Rs 2,500 figure.
+- **Why:** Policy §5 explicitly states: *"Replacement cost for planning: the product's unit cost (see products.csv) plus Rs 340 for reverse pickup and forward shipping. Refurbishment recovery is not to be assumed in business cases."* Priya's email explicitly notes that Arjun's Rs 2,500 figure is incorrect arithmetic. Using Rs 2,500 overstates replacement financial impact by Rs 4.94 lakh.
+- **What would change my mind:** If Finance presented audited accounting ledgers showing additional direct vendor RMA handling charges exceeding the Rs 340 logistics line.
+
+---
+
+## 12. Baseline Replacement Rate Assumption (7.0%)
+- **Decision:** Use the normal Pulse 2 replacement rate of 7.00% (batches outside October–December 2025) as the baseline for calculating excess replacements.
+- **Why:** Unaffected Pulse 2 batches average a 7.00% replacement rate (and non-PL2 products average 4.0% to 6.4%). Across the 1,979 orders shipped in lots PL2-2510, PL2-2511, and PL2-2512, expected replacements at 7.0% are 138.6, resulting in exactly 726.4 (~726) excess replacements and Rs 13.22 lakh in excess policy costs, matching the PRD's ~730 excess replacements and ~Rs 13 lakh.
+- **What would change my mind:** If historical warranty records from prior product launches proved that standard earbud failure rates differ significantly from 7.0%.
+
+---
+
+## 13. Classification of the 131 Double-Remedy Orders
+- **Decision:** Deconstruct the 131 orders receiving both a refund and a replacement into: (a) Legitimate operational cases (88 orders), (b) Genuine policy violations (22 orders), and (c) Ambiguous cancellations (21 orders).
+- **Why:** Policy §5 states: *"In no case is a customer to receive both a refund and a replacement for the same order."* However, analyzing refund reason codes reveals that 55 orders involved goods returned and passing QC (`RETURN-QC-OK`), 35 orders were billing double charges (`DUP-PAYMENT`), and 4 were price matches (`PRICE-ADJ`). The true financial leakage from genuine double remedies (DOA-REPL, LOST-TRANSIT, WTY-BUYBACK) is isolated to 22 orders totaling Rs 62,551.
+- **What would change my mind:** If internal audit logs revealed that customer service agents were systematically using `RETURN-QC-OK` to bypass system blocks against duplicate compensation.
+
+---
+
+## 14. First-Response SLA Breach Calculation
+- **Decision:** Calculate SLA breaches based strictly on first response time against channel targets from Policy §3 (Chat: 15 min; Voice: 2 hrs; Social: 4 hrs; Email: 8 hrs), costed at Rs 350 store credit per breach.
+- **Why:** Across 11,750 tickets, exactly 1,064 breached (9.06%, matching the exploratory ~9.1%), totaling Rs 372,400 (~Rs 3.7 lakh). Monthly breach rates varied narrowly between 6.4% and 11.3% throughout the 18 months, demonstrating complete operational stability and proving that support speed was not the driver of the CSAT drop.
+- **What would change my mind:** If IT logs proved that automatic customer store credits were not actually disbursed on resolution.
+
+
