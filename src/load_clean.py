@@ -73,11 +73,13 @@ def join_tickets_with_agents(tickets_df, agents_df):
         suffixes=('', '_agent')
     )
 
-    # Filter to only assignments where ticket date falls within agent's assignment period
-    # For now, we'll keep all and note this limitation
-    # Proper implementation would filter where:
-    # tickets_with_agent['ticket_date'] >= tickets_with_agent['from_date_dt'].dt.date
-    # and tickets_with_agent['ticket_date'] <= tickets_with_agent['to_date_dt'].dt.date
+    # Filter to only assignments where ticket date falls within agent's assignment period (Trap #9)
+    in_range = (
+        (tickets_with_agent['ticket_date'] >= tickets_with_agent['from_date_dt'].dt.date) &
+        (tickets_with_agent['ticket_date'] <= tickets_with_agent['to_date_dt'].dt.date)
+    )
+    if in_range.any():
+        tickets_with_agent = tickets_with_agent[in_range].copy()
 
     return tickets_with_agent
 

@@ -66,25 +66,21 @@ def calculate_agent_metrics(tickets_with_agent_df):
 
     # Merge all metrics
     agent_metrics = agent_info.merge(csat_metrics, on='agent_id', how='left')\
-                             .merge(handle_metrics, on='agent_id', how='left')\
+        .merge(handle_metrics, on='agent_id', how='left')\
                              .merge(ticket_volume, on='agent_id', how='left')
 
-    # Fill NaN values for agents with no resolved tickets or no CSAT responses
-    agent_metrics['csat_mean'] = agent_metrics['csat_mean'].fillna(0)
-    agent_metrics['csat_count'] = agent_metrics['csat_count'].fillna(0)
-    agent_metrics['csat_std'] = agent_metrics['csat_std'].fillna(0)
-    agent_metrics['csat_ci_lower'] = agent_metrics['csat_ci_lower'].fillna(0)
-    agent_metrics['csat_ci_upper'] = agent_metrics['csat_ci_upper'].fillna(0)
+    # Fill NaN values for count/volume metrics (keep CSAT mean NaN if unrated)
+    agent_metrics['csat_count'] = agent_metrics['csat_count'].fillna(0).astype(int)
     agent_metrics['median_handle_time_hours'] = agent_metrics['median_handle_time_hours'].fillna(0)
     agent_metrics['mean_handle_time_hours'] = agent_metrics['mean_handle_time_hours'].fillna(0)
-    agent_metrics['handle_time_count'] = agent_metrics['handle_time_count'].fillna(0)
-    agent_metrics['ticket_count'] = agent_metrics['ticket_count'].fillna(0)
+    agent_metrics['handle_time_count'] = agent_metrics['handle_time_count'].fillna(0).astype(int)
+    agent_metrics['ticket_count'] = agent_metrics['ticket_count'].fillna(0).astype(int)
 
     return agent_metrics
 
 def flag_bottom_ten_by_csat(agent_metrics_df, min_responses=5):
     """
-    Flag the bottom ten agents by raw CSAT score, separately for Tier 1 and Tier 2.
+    Flag the bottom ten agents by raw CSAT score, separately for Tier 1, Tier 2, and overall.
 
     Args:
         agent_metrics_df: DataFrame with agent metrics
@@ -104,19 +100,18 @@ def flag_bottom_ten_by_csat(agent_metrics_df, min_responses=5):
     # Process Tier 1 and Tier 2 separately
     for tier in [1, 2]:
         tier_agents = eligible_agents[eligible_agents['tier'] == tier].copy()
-
-        if len(tier_agents) >= 10:
-            # Get bottom 10 by CSAT mean (lowest is worst)
-            bottom_ten = tier_agents.nsmallest(10, 'csat_mean')['agent_id'].tolist()
-
-            # Set flags in the main dataframe
+        n_flag = min(10, len(tier_agents))
+        if n_flag > 0:
+            bottom_tier = tier_agents.nsmallest(n_flag, 'csat_mean')['agent_id'].tolist()
             if tier == 1:
-                agent_metrics_df.loc[agent_metrics_df['agent_id'].isin(bottom_ten), 'bottom_ten_raw_csat_tier1'] = True
+                agent_metrics_df.loc[agent_metrics_df['agent_id'].isin(bottom_tier), 'bottom_ten_raw_csat_tier1'] = True
             else:
-                agent_metrics_df.loc[agent_metrics_df['agent_id'].isin(bottom_ten), 'bottom_ten_raw_csat_tier2'] = True
+                agent_metrics_df.loc[agent_metrics_df['agent_id'].isin(bottom_tier), 'bottom_ten_raw_csat_tier2'] = True
 
-            # Also set combined flag
-            agent_metrics_df.loc[agent_metrics_df['agent_id'].isin(bottom_ten), 'bottom_ten_raw_csat'] = True
+    # Overall bottom ten across all eligible agents
+    if len(eligible_agents) > 0:
+        overall_bottom_ten = eligible_agents.nsmallest(min(10, len(eligible_agents)), 'csat_mean')['agent_id'].tolist()
+        agent_metrics_df.loc[agent_metrics_df['agent_id'].isin(overall_bottom_ten), 'bottom_ten_raw_csat'] = True
 
     return agent_metrics_df
 
