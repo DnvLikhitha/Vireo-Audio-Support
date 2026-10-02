@@ -131,5 +131,12 @@ This log documents every key judgement call, the rationale behind it, and the ev
 - **Why:** Hand-labeling validation (WP6) requires an unbiased sample representative of the entire ticket population. Sampling on the classifier's predicted classes would bias the test set toward the classifier's own decision boundaries. Blank columns `hand_label` and `user_notes` are provided for manual human evaluation.
 - **What would change my mind:** If human labeling budget permitted a full 1,000-ticket random sample.
 
+---
+
+## 19. WP6 Validation Evaluation & Tuning Policy
+- **Decision:** Evaluate classifier accuracy strictly against the 150-ticket reference ground-truth sample without post-hoc rule tweaking to artificially fit the sample.
+- **Why:** The classifier achieved 86.67% overall accuracy (130/150) and a +32.67 percentage point lift over the intake bot (54.00%). The remaining 13.3% error rate stems primarily from colloquial phrasing in single-earbud dead tickets (classified as `other`) and multi-intent queries where customers demanded an immediate refund for hardware faults (triggering `refund_payment_delay`). Tuning rules specifically to catch these colloquial expressions would overfit the evaluation set and yield an overly optimistic metric.
+- **What would change my mind:** If a separate, unobserved 150-ticket holdout set were provided for secondary validation after rule iteration.
+
 
 

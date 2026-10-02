@@ -1,0 +1,8 @@
+# Scratch and temporary directories
+scratch/
+.system_generated/
+*.pyc
+__pycache__/
+.pytest_cache/
+.streamlit/
+*.log
